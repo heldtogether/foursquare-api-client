@@ -33,7 +33,7 @@ class FoursquareClient extends Client
         $client->setDefaultOption('query',  array(
             'client_id' => $config['client_id'],
             'client_secret' => $config['client_secret'],
-            'v' => '20130707'
+            'v' => '20150626'
         ));
 
         $client->setDescription(ServiceDescription::factory(__DIR__.'/../Resources/config/client.json'));
